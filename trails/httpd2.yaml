@@ -1,6 +1,6 @@
 ---
-apiVersion: V1
-kind: pod
+apiVersion: v1
+kind: Pod
 metadata:
   name: httpd-twice
 spec:
