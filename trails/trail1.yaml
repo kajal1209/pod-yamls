@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: trail1
+spec:
+  container:
+    - name: alpine
+      image: alpine 
+      port: 
+        - containerPort: 80
+  
