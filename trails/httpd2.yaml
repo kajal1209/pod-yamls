@@ -5,11 +5,11 @@ metadata:
   name: httpd-twice
 spec:
   containers:
-    - name: httpd 1
+    - name: httpd-1
       image: httpd:2.4
       ports:
         - containerPort: 80
-    - name: httpd 2
+    - name: httpd-2
       image: httpd:2.4
       ports:
         - containerPort: 80
