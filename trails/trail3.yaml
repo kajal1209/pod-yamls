@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: trail-3
 spec:
-  container:
+  containers:
     - name: mysql
       image: mysql8.0-debian
       env:
