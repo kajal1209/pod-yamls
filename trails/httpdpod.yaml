@@ -1,5 +1,5 @@
 ---
-api Version: V1
+apiVersion: V1
 kind: pod
 metadata:
   name: httpd-pod
