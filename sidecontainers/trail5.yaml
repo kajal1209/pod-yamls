@@ -32,7 +32,10 @@ spec:
       resources:
         limits: 
           cpu: 100m
-          memory: 0.5Gi
+      args:
+        - sleep 
+        - 1d
+        
         
 
       
