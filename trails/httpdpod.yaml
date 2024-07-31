@@ -1,6 +1,6 @@
 ---
-apiVersion: V1
-kind: pod
+apiVersion: v1
+kind: Pod
 metadata:
   name: httpd-pod
 spec:
@@ -8,5 +8,6 @@ spec:
     - name: httpd
       image: httpd:2.4
       ports:
-        - containerport: 80
-          protocol: "TCP"
+        - containerPort: 80
+          protocol: TCP
+
