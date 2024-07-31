@@ -1,0 +1,12 @@
+---
+api Version: V1
+kind: pod
+metadata:
+  name: httpd-pod
+spec:
+  containers:
+    - name: httpd
+      image: httpd:2.4
+      ports:
+        - containerport: 80
+          protocol: "TCP"
