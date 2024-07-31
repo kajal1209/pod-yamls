@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: trail-5
 spec:
-  initcontainers:
+  initContainers:
     - name: init1
       image: alpine
       args: 
@@ -17,7 +17,7 @@ spec:
         limits:
           cpu: 100m
           memory: 0.5Gi
-          
+
 
 
       
