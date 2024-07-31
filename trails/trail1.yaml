@@ -7,6 +7,6 @@ spec:
   containers:
     - name: alpine
       image: alpine 
-      port: 
+      ports: 
         - containerPort: 80
   
