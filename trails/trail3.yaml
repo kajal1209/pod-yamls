@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: mysql
-      image: mysql8.0-debian
+      image: mysql:8.0-debian
       env:
         - name: MYSQL_ROOT_PASSWORD
           value: admin 1234
