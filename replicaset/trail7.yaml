@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: alpine
-          image: alpine
+          image: liberica-openjdk-alpine:17-cds
           resources:
             limits:
               cpu: "500m"
