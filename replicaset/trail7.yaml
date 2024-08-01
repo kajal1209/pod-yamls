@@ -19,7 +19,3 @@ spec:
       containers:
         - name: alpine
           image: alpine
-          resources:
-            limits:
-              cpu: 500m
-              memory: 256Mi
