@@ -9,7 +9,6 @@ spec:
   minReadySeconds: 10
   replicas: 3
   selector:
-    matchLabels:
       app: alpine
   template:
     metadata:
