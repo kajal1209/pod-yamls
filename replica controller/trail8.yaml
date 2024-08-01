@@ -18,9 +18,10 @@ spec:
       containers:
         - name: nginx
           image: nginx
-          resources: 
-            cpu: "500m"
-            memory: "256Mi"
+          resources:
+            limits: 
+              cpu: "500m"
+              memory: "256Gi"
           args:
             - sleep
             - 1d  
