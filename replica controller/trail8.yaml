@@ -4,12 +4,11 @@ kind: ReplicationController
 metadata:
   name: trail8-rsc
   labels:
-    name: trail-8
+    app: nginx
 spec:
   minReadySeconds: 10
   replicas: 3
   selector:
-    matchLabels:
       app: nginx
   template:
     metadata:
