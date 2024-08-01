@@ -9,7 +9,7 @@ spec:
   minReadySeconds: 10
   replicas: 3
   selector:
-    label:
+    matchLabels:
       app: nginx
   template:
     metadata:
