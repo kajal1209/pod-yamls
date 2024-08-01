@@ -6,7 +6,7 @@ metadata:
   labels:
     name: trail6
 spec:
-  minReadySeconds: 10s
+  minReadySeconds: 10
   replicas: 3
   selector:
     matchLabels:
